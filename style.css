@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+body{
+	font-family: 'Henny Penny', cursive;
+	color: yellow;
+	font-size: 18px;
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    display: flex;
+	padding: 0;
+	margin: 0;	
+	width:100vw;
+	height: 100vh;	
+}
+.panel{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question-container{
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 10vh;
+	background-color: transparent;
+	color: white;
+	font-size: x-large;
+	text-align: center;
+	
+}
+
+.header {
+	font-family: 'Henny Penny', cursive;
+	text-align: center;
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color: transparent;
+		
+}
+.option{
+	font-family: 'Henny Penny', cursive;	
+	padding: 10px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+	background-color: #946B2D;
+	border-radius: 50px;
+}
+.option:hover{
+	background-color: #AE0001;
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color:transparent;
+}
+
+.evaluate,.next{
+	font-family: 'Henny Penny', cursive;
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	border-radius: 50px;
+	font-size: larger;
+}
+.evaluate{
+	
+	background-color: #1A472A;
+}
+.next{
+	color: white;
+	background-color:  #5D5D5D;
+}
